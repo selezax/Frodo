@@ -1,0 +1,16 @@
+{
+    "name": "test/frodo",
+    "authors": [
+        {
+            "name": "selezax",
+            "email": "selezax@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [],
+        "files": [],
+        "psr-4": {
+            "Test\\Frodo\\": "src/"
+        }
+    }
+}

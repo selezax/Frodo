@@ -1,0 +1,850 @@
+[2016-09-25 14:42:12] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "route" namespace.' in /var/www/frodo/public_html/vendor/symfony/console/Application.php:469
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/symfony/console/Application.php(501): Symfony\Component\Console\Application->findNamespace('route')
+#1 /var/www/frodo/public_html/vendor/symfony/console/Application.php(183): Symfony\Component\Console\Application->find('route:list')
+#2 /var/www/frodo/public_html/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Console/Kernel.php(76): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/frodo/public_html/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2016-09-25 15:57:51] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:3
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(3): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 3, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(25): require('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(173): Test\Frodo\FrodoServiceProvider->boot()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 15:58:43] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Route' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:3
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 16:01:35] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:3
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(3): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 3, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(25): require('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(173): Test\Frodo\FrodoServiceProvider->boot()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 16:12:08] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:3
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(3): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 3, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(13): include('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(172): Test\Frodo\FrodoServiceProvider->register()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 16:12:11] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:3
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(3): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 3, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(13): include('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(172): Test\Frodo\FrodoServiceProvider->register()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 16:13:35] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:4
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(4): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 4, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(13): include('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(172): Test\Frodo\FrodoServiceProvider->register()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 16:13:37] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:4
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(4): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 4, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(13): include('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(172): Test\Frodo\FrodoServiceProvider->register()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 16:13:58] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:3
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(3): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 3, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(13): include('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(172): Test\Frodo\FrodoServiceProvider->register()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 16:14:09] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php:4
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/routes.php(4): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 4, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/FrodoServiceProvider.php(13): include('/var/www/frodo/...')
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(172): Test\Frodo\FrodoServiceProvider->register()
+#3 /var/www/frodo/public_html/bootstrap/app.php(100): Laravel\Lumen\Application->register('Test\Frodo\Frod...')
+#4 /var/www/frodo/public_html/public/index.php(14): require('/var/www/frodo/...')
+#5 {main}  
+[2016-09-25 16:14:46] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:15:55] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:15:57] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:17:30] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:18:37] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:18:41] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:19:12] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:19:14] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:19:14] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:19:47] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:22:01] lumen.ERROR: exception 'ReflectionException' with message 'Class api does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('api')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('api', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('api', Array)
+#3 /var/www/frodo/public_html/vendor/illuminate/pipeline/Pipeline.php(126): Laravel\Lumen\Application->make('api')
+#4 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#6 [internal function]: Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#7 /var/www/frodo/public_html/vendor/illuminate/pipeline/Pipeline.php(103): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(640): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(492): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#13 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#14 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#15 {main}  
+[2016-09-25 16:28:00] lumen.ERROR: exception 'ReflectionException' with message 'Class AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('AccountControll...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('AccountControll...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('AccountControll...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('AccountControll...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 16:29:50] lumen.ERROR: exception 'ReflectionException' with message 'Class Test\Frodo\Http\Controllers\Test\Frodo\Http\Controllers\AccountController does not exist' in /var/www/frodo/public_html/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('Test\Frodo\Http...')
+#1 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('Test\Frodo\Http...', Array)
+#2 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('Test\Frodo\Http...', Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('Test\Frodo\Http...')
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-09-25 17:04:03] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments, expected arguments "command" "name".' in /var/www/frodo/public_html/vendor/symfony/console/Input/ArgvInput.php:181
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('???create=frodo...')
+#1 /var/www/frodo/public_html/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/frodo/public_html/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/frodo/public_html/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/frodo/public_html/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/frodo/public_html/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Console/Kernel.php(76): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/frodo/public_html/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 {main}  
+[2016-09-25 19:20:33] lumen.ERROR: exception 'ErrorException' with message 'Argument 2 passed to Laravel\Lumen\Routing\Controller::validate() must be of the type array, null given, called in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php on line 23 and defined' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Routing/ProvidesConvenienceMethods.php:59
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Routing/ProvidesConvenienceMethods.php(59): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Argument 2 pass...', '/var/www/frodo/...', 59, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(23): Laravel\Lumen\Routing\Controller->validate(Object(Illuminate\Http\Request), NULL)
+#2 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#3 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#13 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-09-25 19:33:27] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Test\Frodo\Http\Controllers\Validator' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:23
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:33:46] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Validator' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:23
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:35:14] lumen.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Laravel\Lumen\Routing\Controller::validate() must be an instance of Illuminate\Http\Request, array given, called in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php on line 24 and defined' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Routing/ProvidesConvenienceMethods.php:59
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Routing/ProvidesConvenienceMethods.php(59): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Argument 1 pass...', '/var/www/frodo/...', 59, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(24): Laravel\Lumen\Routing\Controller->validate(Array, Array)
+#2 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#3 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#13 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-09-25 19:37:08] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Test\Frodo\Http\Controllers\Validator' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:23
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:37:16] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Validator' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:23
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:38:43] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Validator' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:23
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:38:57] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Illuminate\Validation' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:24
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:41:50] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Validator' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:24
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:44:35] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Validation\Validator::make()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:24
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:45:07] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Validation\Validator::make()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:24
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:45:59] lumen.ERROR: exception 'RuntimeException' with message 'A facade root has not been set.' in /var/www/frodo/public_html/vendor/illuminate/support/Facades/Facade.php:210
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(25): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(25): Illuminate\Support\Facades\Validator::make(Object(Illuminate\Http\Request), Array)
+#2 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#3 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#13 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-09-25 19:46:17] lumen.ERROR: exception 'RuntimeException' with message 'A facade root has not been set.' in /var/www/frodo/public_html/vendor/illuminate/support/Facades/Facade.php:210
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(25): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(25): Illuminate\Support\Facades\Validator::make(Array, Array)
+#2 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#3 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#13 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-09-25 19:47:05] lumen.ERROR: exception 'RuntimeException' with message 'A facade root has not been set.' in /var/www/frodo/public_html/vendor/illuminate/support/Facades/Facade.php:210
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(25): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(25): Illuminate\Support\Facades\Validator::make(Array, Array)
+#2 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#3 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#13 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-09-25 19:47:12] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Contracts\Validation\Validator::make()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:25
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:53:53] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Validation\ValidationException::errors()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:28
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:54:36] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Validation\ValidationException::errors()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:28
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:54:39] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Validation\ValidationException::failed()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:28
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:55:16] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Validation\ValidationException::messages()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:28
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 19:58:00] lumen.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Illuminate\Validation\Factory::make() must be of the type array, object given, called in /var/www/frodo/public_html/vendor/illuminate/support/Facades/Facade.php on line 219 and defined' in /var/www/frodo/public_html/vendor/illuminate/validation/Factory.php:91
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/validation/Factory.php(91): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Argument 1 pass...', '/var/www/frodo/...', 91, Array)
+#1 /var/www/frodo/public_html/vendor/illuminate/support/Facades/Facade.php(219): Illuminate\Validation\Factory->make(Object(Illuminate\Http\Request), Array)
+#2 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(29): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#3 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(29): Illuminate\Support\Facades\Validator::make(Object(Illuminate\Http\Request), Array)
+#4 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#5 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#13 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#14 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#15 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#16 {main}  
+[2016-09-25 19:58:21] lumen.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Illuminate\Validation\Factory::make() must be of the type array, object given, called in /var/www/frodo/public_html/vendor/illuminate/support/Facades/Facade.php on line 219 and defined' in /var/www/frodo/public_html/vendor/illuminate/validation/Factory.php:91
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/illuminate/validation/Factory.php(91): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Argument 1 pass...', '/var/www/frodo/...', 91, Array)
+#1 /var/www/frodo/public_html/vendor/illuminate/support/Facades/Facade.php(219): Illuminate\Validation\Factory->make(Object(Illuminate\Http\Request), Array)
+#2 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(29): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#3 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(29): Illuminate\Support\Facades\Validator::make(Object(Illuminate\Http\Request), Array)
+#4 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#5 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#13 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#14 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#15 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#16 {main}  
+[2016-09-25 19:59:36] lumen.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:32
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(32): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/frodo/...', 32, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 19:59:56] lumen.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:32
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(32): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/frodo/...', 32, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 20:00:26] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function Test\Frodo\Http\Controllers\prin_r()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:32
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 20:02:43] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function Test\Frodo\Http\Controllers\dump()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:29
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 20:02:56] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function Test\Frodo\Http\Controllers\dump()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:29
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 20:02:57] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function Test\Frodo\Http\Controllers\dump()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:29
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 20:02:58] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function Test\Frodo\Http\Controllers\dump()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:29
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 20:12:50] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: Book' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:35
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/frodo/...', 35, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 22:19:44] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:24:24] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:26:05] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:26:56] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:29:53] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:30:40] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:31:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:32:04] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:32:38] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:38:54] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:41:58] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:42:04] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:44:09] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:46:28] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:46:30] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:46:35] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:46:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:46:53] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Abraham\TwitterOAuth' not found' in /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Application.php:163
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 22:58:20] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$name' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:35
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/var/www/frodo/...', 35, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 22:58:31] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$name' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:35
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/var/www/frodo/...', 35, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 23:01:44] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:52
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-25 23:02:24] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$errors' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:35
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/var/www/frodo/...', 35, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 23:12:57] lumen.ERROR: exception 'BadMethodCallException' with message 'Method [success] does not exist.' in /var/www/frodo/public_html/vendor/illuminate/validation/Validator.php:3295
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(26): Illuminate\Validation\Validator->__call('success', Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(26): Illuminate\Validation\Validator->success()
+#2 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#3 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#13 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-09-25 23:17:04] lumen.ERROR: exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:35
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Object of class...', '/var/www/frodo/...', 35, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 23:17:30] lumen.ERROR: exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(33): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Object of class...', '/var/www/frodo/...', 33, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 23:18:10] lumen.ERROR: exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:33
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(33): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Object of class...', '/var/www/frodo/...', 33, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-25 23:18:37] lumen.ERROR: exception 'ErrorException' with message 'Undefined index: description' in /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php:34
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Http/Controllers/AccountController.php(34): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined index...', '/var/www/frodo/...', 34, Array)
+#1 [internal function]: Test\Frodo\Http\Controllers\AccountController->newAccount(Object(Illuminate\Http\Request))
+#2 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(Test\Frodo\Http\Controllers\AccountController), 'newAccount', Array)
+#6 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/frodo/public_html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2016-09-26 09:20:30] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function connection() on a non-object' in /var/www/frodo/public_html/vendor/illuminate/database/Eloquent/Model.php:3314
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-26 09:21:24] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function connection() on a non-object' in /var/www/frodo/public_html/vendor/illuminate/database/Eloquent/Model.php:3314
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-26 20:48:02] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function Test\Frodo\Lib\dump()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php:104
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-26 20:53:22] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Test\Frodo\Lib\Account::info()' in /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php:104
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-09-26 21:01:29] lumen.ERROR: exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Request timed out.' in /var/www/frodo/public_html/vendor/abraham/twitteroauth/src/TwitterOAuth.php:311
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/abraham/twitteroauth/src/TwitterOAuth.php(251): Abraham\TwitterOAuth\TwitterOAuth->request('https://api.twi...', 'GET', 'Authorization: ...', Array)
+#1 /var/www/frodo/public_html/vendor/abraham/twitteroauth/src/TwitterOAuth.php(222): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /var/www/frodo/public_html/vendor/abraham/twitteroauth/src/TwitterOAuth.php(177): Abraham\TwitterOAuth\TwitterOAuth->http('GET', 'https://api.twi...', 'statuses/user_t...', Array)
+#3 /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php(91): Abraham\TwitterOAuth\TwitterOAuth->get('statuses/user_t...', Array)
+#4 /var/www/frodo/public_html/packages/Test/Frodo/src/Console/Commands/ImportTweets.php(58): Test\Frodo\Lib\Account->getPostsByAccountInterval()
+#5 [internal function]: Test\Frodo\Console\Commands\ImportTweets->handle()
+#6 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#7 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#8 /var/www/frodo/public_html/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/frodo/public_html/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/frodo/public_html/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Test\Frodo\Console\Commands\ImportTweets), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/frodo/public_html/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Console/Kernel.php(76): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/frodo/public_html/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 {main}  
+[2016-09-26 21:08:48] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$favourites_count' in /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php:107
+Stack trace:
+#0 /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php(107): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/var/www/frodo/...', 107, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Console/Commands/ImportTweets.php(58): Test\Frodo\Lib\Account->getPostsByAccountInterval()
+#2 [internal function]: Test\Frodo\Console\Commands\ImportTweets->handle()
+#3 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#4 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#5 /var/www/frodo/public_html/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/frodo/public_html/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/frodo/public_html/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Test\Frodo\Console\Commands\ImportTweets), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/frodo/public_html/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Console/Kernel.php(76): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/frodo/public_html/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 {main}  
+[2016-09-26 22:19:42] lumen.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Carbon\Carbon::diffInHours() must be an instance of Carbon\Carbon, string given, called in /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php on line 94 and defined' in /var/www/frodo/public_html/vendor/nesbot/carbon/src/Carbon/Carbon.php:2103
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/nesbot/carbon/src/Carbon/Carbon.php(2103): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Argument 1 pass...', '/var/www/frodo/...', 2103, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php(94): Carbon\Carbon->diffInHours('0000-00-00 00:0...')
+#2 /var/www/frodo/public_html/packages/Test/Frodo/src/Console/Commands/ImportTweets.php(58): Test\Frodo\Lib\Account->getPostsByAccountInterval()
+#3 [internal function]: Test\Frodo\Console\Commands\ImportTweets->handle()
+#4 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#5 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#6 /var/www/frodo/public_html/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/frodo/public_html/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/frodo/public_html/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Test\Frodo\Console\Commands\ImportTweets), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/frodo/public_html/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Console/Kernel.php(76): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/frodo/public_html/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
+[2016-09-26 22:20:14] lumen.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Carbon\Carbon::diffInHours() must be an instance of Carbon\Carbon, string given, called in /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php on line 94 and defined' in /var/www/frodo/public_html/vendor/nesbot/carbon/src/Carbon/Carbon.php:2103
+Stack trace:
+#0 /var/www/frodo/public_html/vendor/nesbot/carbon/src/Carbon/Carbon.php(2103): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(4096, 'Argument 1 pass...', '/var/www/frodo/...', 2103, Array)
+#1 /var/www/frodo/public_html/packages/Test/Frodo/src/Lib/Account.php(94): Carbon\Carbon->diffInHours('0000-00-00 00:0...')
+#2 /var/www/frodo/public_html/packages/Test/Frodo/src/Console/Commands/ImportTweets.php(58): Test\Frodo\Lib\Account->getPostsByAccountInterval()
+#3 [internal function]: Test\Frodo\Console\Commands\ImportTweets->handle()
+#4 /var/www/frodo/public_html/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#5 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#6 /var/www/frodo/public_html/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/frodo/public_html/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/frodo/public_html/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/frodo/public_html/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Test\Frodo\Console\Commands\ImportTweets), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/frodo/public_html/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/frodo/public_html/vendor/laravel/lumen-framework/src/Console/Kernel.php(76): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/frodo/public_html/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 {main}  
